@@ -1221,3 +1221,18 @@ LogInit: Object subsystem initialized
 [2019.01.23-00.06.52:610][877]LogSavePackage: Moving '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/SM_hatMat7957BC4647AE9E94815BA7ABC29271AE.tmp' to '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/SM_hatMat.uasset'
 [2019.01.23-00.06.52:620][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mann" FILE="../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/mann.uasset" SILENT=true
 [2019.01.23-00.06.52:629][877]LogSavePackage: Moving '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/mann041D0F474095C79878557CB5838C565D.tmp' to '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/mann.uasset'
+[2019.01.23-00.51.40:900][987]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{4924c89c-236b-4269-bc26-ab43150944f4} was removed. Shutting down audio device.
+[2019.01.23-00.51.40:900][987]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-00.51.54:628][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.23-00.52.06:878][186]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.23-02.09.30:384][941]LogInit: XAudio2 using 'Headphones (DAT Boy’s Beats Solo³ Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.23-02.09.30:719][942]LogInit: XAudio2 using 'Headphones (DAT Boy’s Beats Solo³ Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.23-03.05.27:965][919]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{4924c89c-236b-4269-bc26-ab43150944f4} was removed. Shutting down audio device.
+[2019.01.23-03.05.27:966][919]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-05.06.33:259][939]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.23-05.07.19:655][ 75]LogInit: XAudio2 using 'Headphones (DAT Boy’s Beats Solo³ Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.23-06.28.31:490][567]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{4924c89c-236b-4269-bc26-ab43150944f4} was removed. Shutting down audio device.
+[2019.01.23-06.28.31:490][567]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.23-06.28.46:892][592]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.23-06.57.31:770][694]LogInit: XAudio2 using 'Headphones (DAT Boy’s Beats Solo³ Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.23-06.59.09:617][268]LogSlate: FSceneViewport::OnFocusLost() reason 2
