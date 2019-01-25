@@ -1,4 +1,4 @@
-﻿Log file open, 01/24/19 16:12:11
+﻿Log file open, 01/24/19 23:43:37
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BS_WBInClass
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.871339
+LogStats: Stats thread started at 1.012374
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -147,279 +147,213 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.24-23.12.12:133][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.24-23.12.12:133][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.24-23.12.12:154][  0]LogHAL: Display: Platform has ~ 16 GB [17018314752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.24-23.12.12:154][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.24-23.12.12:154][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.24-23.12.12:160][  0]LogInit: Computer: MSI
-[2019.01.24-23.12.12:160][  0]LogInit: User: Blsch
-[2019.01.24-23.12.12:160][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.01.24-23.12.12:160][  0]LogInit: High frequency timer resolution =2.156250 MHz
-[2019.01.24-23.12.12:160][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2019.01.24-23.12.12:160][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.24-23.12.12:160][  0]LogMemory: Process Physical Memory: 101.41 MB used, 101.41 MB peak
-[2019.01.24-23.12.12:160][  0]LogMemory: Process Virtual Memory: 86.01 MB used, 86.01 MB peak
-[2019.01.24-23.12.12:161][  0]LogMemory: Physical Memory: 7847.97 MB used,  8381.96 MB free, 16229.93 MB total
-[2019.01.24-23.12.12:161][  0]LogMemory: Virtual Memory: 4657.61 MB used,  8381.96 MB free, 134217728.00 MB total
-[2019.01.24-23.12.13:187][  0]LogInit: Using OS detected language (en-US).
-[2019.01.24-23.12.13:187][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.24-23.12.13:189][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.24-23.12.13:565][  0]LogStreaming: Display: Took  0.378s to InitEngineTextLocalization.
-[2019.01.24-23.12.13:565][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.24-23.12.13:641][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.24-23.12.13:641][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.24-23.12.15:939][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.24-23.12.15:939][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.24-23.12.15:997][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2019.01.24-23.12.15:997][  0]LogD3D11RHI:       6052/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.01.24-23.12.16:013][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.01.24-23.12.16:013][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.01.24-23.12.16:014][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.24-23.12.16:014][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.24-23.12.16:014][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.24-23.12.16:037][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.24-23.12.16:037][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.24-23.12.16:038][  0]LogWindows: EnumDisplayDevices:
-[2019.01.24-23.12.16:038][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2019.01.24-23.12.16:038][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.01.24-23.12.16:038][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.01.24-23.12.16:038][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.24-23.12.16:039][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.24-23.12.16:039][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.24-23.12.16:039][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.24-23.12.16:039][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.01.24-23.12.16:039][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2019.01.24-23.12.16:039][  0]LogD3D11RHI:   Driver Version: 390.94 (internal:23.21.13.9094, unified:390.94)
-[2019.01.24-23.12.16:039][  0]LogD3D11RHI:      Driver Date: 2-14-2018
-[2019.01.24-23.12.16:039][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.01.24-23.12.16:075][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.24-23.12.16:103][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.24-23.12.16:107][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Intermediate/Shaders/WorkingDirectory/9548/).
-[2019.01.24-23.12.16:107][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Blsch/AppData/Local/Temp/UnrealShaderWorkingDir/B4B20A634EEE649C59765AB1FDF8382A/'.
-[2019.01.24-23.12.16:392][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.24-23.12.16:404][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.24-23.12.16:416][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.24-23.12.16:429][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.24-23.12.16:447][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.24-23.12.16:460][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.24-23.12.16:473][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.24-23.12.16:486][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.24-23.12.16:493][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.24-23.12.16:572][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.24-23.12.16:641][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.24-23.12.16:641][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.24-23.12.16:661][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.24-23.12.16:661][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.24-23.12.16:673][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.24-23.12.16:685][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.24-23.12.16:698][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.24-23.12.16:718][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.24-23.12.16:727][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.24-23.12.16:727][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.24-23.12.16:851][  0]LogXGEController: Cleaning working directory: C:/Users/Blsch/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.01.24-23.12.16:851][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.24-23.12.16:852][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.24-23.12.16:852][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.24-23.12.18:970][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.24-23.12.19:193][  0]LogDerivedDataCache: Loaded boot cache 0.22s 71MB C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.24-23.12.19:194][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.01.24-23.12.19:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.24-23.12.19:194][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.24-23.12.19:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.24-23.12.19:194][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.24-23.12.19:216][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.24-23.12.19:228][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Blsch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.24-23.12.19:228][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.24-23.12.19:228][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.24-23.12.19:246][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.24-23.12.19:251][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.24-23.12.19:270][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.24-23.12.19:511][  0]LogAssetRegistry: FAssetRegistry took 0.0291 seconds to start up
-[2019.01.24-23.12.19:873][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.24-23.12.20:235][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.24-23.12.20:253][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.24-23.12.20:253][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.24-23.12.20:253][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.24-23.12.20:253][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.24-23.12.20:314][  0]LogNetVersion: BS_WBInClass 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 115251708)
-[2019.01.24-23.12.21:696][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.126077 seconds
-[2019.01.24-23.12.21:704][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.01.24-23.12.21:704][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.01.24-23.12.21:704][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.24-23.12.24:619][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.24-23.12.24:636][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.24-23.12.24:919][  0]SourceControl: Source control is disabled
-[2019.01.24-23.12.24:919][  0]SourceControl: Source control is disabled
-[2019.01.24-23.12.24:928][  0]SourceControl: Source control is disabled
-[2019.01.24-23.12.24:933][  0]SourceControl: Source control is disabled
-[2019.01.24-23.12.25:235][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.24-23.12.25:341][  0]LogOcInput: OculusInput pre-init called
-[2019.01.24-23.12.25:452][  0]LogEngine: Initializing Engine...
-[2019.01.24-23.12.25:454][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.24-23.12.25:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.24-23.12.25:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.24-23.12.25:457][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.24-23.12.25:457][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.24-23.12.25:844][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.24-23.12.25:878][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.24-23.12.25:902][  0]LogInit: XAudio2 using 'Headphones (DAT Boy’s Beats Solo³ Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.24-23.12.25:915][  0]LogInit: FAudioDevice initialized.
-[2019.01.24-23.12.25:915][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.24-23.12.25:958][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.24-23.12.25:969][  0]LogInit: Texture streaming: Enabled
-[2019.01.24-23.12.25:991][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.24-23.12.26:013][  0]LogInit: Transaction tracking system initialized
-[2019.01.24-23.12.26:069][  0]BlueprintLog: New page: Editor Load
-[2019.01.24-23.12.26:240][  0]LocalizationService: Localization service is disabled
-[2019.01.24-23.12.26:872][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.24-23.12.26:873][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/' took 0.02s
-[2019.01.24-23.12.26:873][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.24-23.12.26:873][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.24-23.12.26:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.24-23.12.26:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.24-23.12.26:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.24-23.12.26:873][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.24-23.12.27:179][  0]SourceControl: Source control is disabled
-[2019.01.24-23.12.27:180][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.24-23.12.27:185][  0]LightingResults: New page: Lighting Build
-[2019.01.24-23.12.27:193][  0]MapCheck: New page: Map Check
-[2019.01.24-23.12.27:193][  0]LightingResults: New page: Lighting Build
-[2019.01.24-23.12.27:498][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.01.24-23.12.27:519][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.24-23.12.27:547][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.24-23.12.27:610][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.43ms to complete.
-[2019.01.24-23.12.27:610][  0]LogFileHelpers: Loading map 'Template_Default' took 0.431
-[2019.01.24-23.12.27:762][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.24-23.12.27:771][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.24-23.12.27:781][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.24-23.12.27:789][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.24-23.12.27:807][  0]LogCollectionManager: Loaded 0 collections in 0.001994 seconds
-[2019.01.24-23.12.27:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/Collections/' took 0.01s
-[2019.01.24-23.12.27:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Developers/Blsch/Collections/' took 0.01s
-[2019.01.24-23.12.27:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Collections/' took 0.01s
-[2019.01.24-23.12.27:862][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.24-23.12.27:874][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2572 classes and 603 folders.
-[2019.01.24-23.12.27:886][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.24-23.12.28:371][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.24-23.12.28:383][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.01.24-23.12.28:439][  0]LogSlate: Took 0.007154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.24-23.12.28:449][  0]LogSlate: Took 0.006242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.24-23.12.28:464][  0]LogSlate: Took 0.007384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.24-23.12.28:654][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.01.24-23.12.28:879][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.24-23.12.28:879][  0]LogLoad: (Engine Initialization) Total time: 21.14 seconds
-[2019.01.24-23.12.28:879][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.24-23.12.28:922][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.24-23.12.29:239][  2]LogAssetRegistry: Asset discovery search completed in 9.7518 seconds
-[2019.01.24-23.12.29:243][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.24-23.12.29:243][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000087 seconds (updated 0 objects)
-[2019.01.24-23.12.33:247][ 14]LogSlate: Took 0.005356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.24-23.12.36:036][177]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.24-23.12.36:182][194]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.24-23.12.36:499][194]LogAIModule: Creating AISystem for world Block_1
-[2019.01.24-23.12.36:516][194]LogAssetEditorManager: Opening Asset editor for World /Game/Block_1.Block_1
-[2019.01.24-23.12.36:544][194]Cmd: MAP LOAD FILE="../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Block_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.24-23.12.36:544][194]LightingResults: New page: Lighting Build
-[2019.01.24-23.12.36:545][194]LoadErrors: New page: Loading map: Block_1.umap
-[2019.01.24-23.12.36:545][194]MapCheck: New page: Map Check
-[2019.01.24-23.12.36:545][194]LightingResults: New page: Lighting Build
-[2019.01.24-23.12.36:577][194]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.24-23.12.36:640][194]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.24-23.12.36:701][194]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.807ms to complete.
-[2019.01.24-23.12.36:701][194]LogFileHelpers: Loading map 'Block_1' took 0.158
-[2019.01.24-23.15.37:107][487]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.24-23.15.45:177][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.24-23.15.49:602][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.24-23.15.55:797][691]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.15.55:797][691]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.16.03:323][560]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.16.03:323][560]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.16.07:588][ 16]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.16.07:588][ 16]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.16.12:108][529]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.16.12:108][529]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.16.17:590][156]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.16.17:590][156]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.16.24:721][979]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.16.24:721][979]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.16.29:700][518]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.16.29:700][518]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.16.32:922][888]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.24-23.16.36:042][237]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.16.40:117][674]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.24-23.16.47:119][499]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.16.47:119][499]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.16.54:207][318]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.16.54:207][318]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.16.58:034][751]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.16.58:034][751]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.17.01:829][179]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.17.01:829][179]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.17.10:644][200]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.17.10:644][200]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.17.14:029][580]LogGeometryMode: Warning: Unable to find Roof_1 Brush(s) in new BSP
-[2019.01.24-23.17.14:029][580]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.17.14:502][618]LogEditorViewport: Clicking Background
-[2019.01.24-23.17.15:604][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.24-23.17.17:236][944]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.17.26:543][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.24-23.17.44:955][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.17.48:142][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.24-23.17.52:878][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.24-23.17.59:537][559]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.18.05:829][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.24-23.18.19:280][656]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.18.34:947][398]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.18.34:985][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.24-23.18.35:220][423]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.18.51:555][157]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.18.59:460][  1]LogGeometryMode: Warning: Unable to find FireStation_4 Brush(s) in new BSP
-[2019.01.24-23.18.59:460][  1]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.19.04:480][488]LogGeometryMode: Warning: Unable to find FireStation_6 Brush(s) in new BSP
-[2019.01.24-23.19.04:480][488]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.19.08:073][848]LogGeometryMode: Warning: Unable to find FireStation_8 Brush(s) in new BSP
-[2019.01.24-23.19.08:073][848]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.19.12:254][305]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.19.15:580][693]LogGeometryMode: Warning: Unable to find BrushGrass_6 Brush(s) in new BSP
-[2019.01.24-23.19.15:580][693]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.19.16:437][791]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.19.25:646][740]LogGeometryMode: Warning: Unable to find FireStation_5 Brush(s) in new BSP
-[2019.01.24-23.19.25:646][740]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.19.29:096][ 69]LogGeometryMode: Warning: Unable to find FireStation_7 Brush(s) in new BSP
-[2019.01.24-23.19.29:096][ 69]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2019.01.24-23.19.33:626][543]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.19.37:250][927]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.24-23.19.47:775][901]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.19.55:068][685]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.24-23.20.08:401][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.24-23.22.40:131][708]LogSavePackage: Moving '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/Block_1_Auto1A4C72C0A4C02B98BFEB7D5962164C6FB.tmp' to '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/Autosaves/Game/Block_1_Auto1.umap'
-[2019.01.24-23.22.40:135][708]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Block_1' took 0.431
-[2019.01.24-23.22.40:135][708]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.431
-[2019.01.24-23.25.47:734][985]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.24-23.25.50:908][362]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.24-23.25.50:978][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Block_1" FILE="../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Block_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.01.24-23.25.51:380][362]LogSavePackage: Moving '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/Block_1A39E2200487419AB870902A24F8650EC.tmp' to '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Block_1.umap'
-[2019.01.24-23.25.51:420][362]LogFileHelpers: Saving map 'Block_1' took 0.499
-[2019.01.24-23.25.52:253][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-06.43.38:132][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-06.43.38:132][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.25-06.43.38:152][  0]LogHAL: Display: Platform has ~ 16 GB [17018314752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.25-06.43.38:152][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.25-06.43.38:152][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.25-06.43.38:158][  0]LogInit: Computer: MSI
+[2019.01.25-06.43.38:158][  0]LogInit: User: Blsch
+[2019.01.25-06.43.38:158][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.01.25-06.43.38:158][  0]LogInit: High frequency timer resolution =2.156251 MHz
+[2019.01.25-06.43.38:158][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.01.25-06.43.38:158][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.25-06.43.38:158][  0]LogMemory: Process Physical Memory: 101.38 MB used, 101.38 MB peak
+[2019.01.25-06.43.38:158][  0]LogMemory: Process Virtual Memory: 85.82 MB used, 85.82 MB peak
+[2019.01.25-06.43.38:158][  0]LogMemory: Physical Memory: 5644.52 MB used,  10585.41 MB free, 16229.93 MB total
+[2019.01.25-06.43.38:158][  0]LogMemory: Virtual Memory: 4657.61 MB used,  10585.41 MB free, 134217728.00 MB total
+[2019.01.25-06.43.38:647][  0]LogInit: Using OS detected language (en-US).
+[2019.01.25-06.43.38:647][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.25-06.43.38:649][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.25-06.43.39:032][  0]LogStreaming: Display: Took  0.384s to InitEngineTextLocalization.
+[2019.01.25-06.43.39:032][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.25-06.43.39:088][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.25-06.43.39:088][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.25-06.43.41:052][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-06.43.41:052][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.25-06.43.41:108][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.01.25-06.43.41:108][  0]LogD3D11RHI:       6052/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.25-06.43.41:122][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.01.25-06.43.41:122][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.25-06.43.41:123][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.25-06.43.41:123][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.25-06.43.41:123][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.25-06.43.41:147][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.25-06.43.41:147][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.25-06.43.41:147][  0]LogWindows: EnumDisplayDevices:
+[2019.01.25-06.43.41:147][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.01.25-06.43.41:147][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.01.25-06.43.41:147][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.01.25-06.43.41:148][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.25-06.43.41:148][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.25-06.43.41:148][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.25-06.43.41:148][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.25-06.43.41:148][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.01.25-06.43.41:148][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.01.25-06.43.41:148][  0]LogD3D11RHI:   Driver Version: 390.94 (internal:23.21.13.9094, unified:390.94)
+[2019.01.25-06.43.41:148][  0]LogD3D11RHI:      Driver Date: 2-14-2018
+[2019.01.25-06.43.41:148][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.01.25-06.43.41:185][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.25-06.43.41:213][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.25-06.43.41:219][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Intermediate/Shaders/WorkingDirectory/4352/).
+[2019.01.25-06.43.41:219][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Blsch/AppData/Local/Temp/UnrealShaderWorkingDir/A6DC833146A706DF54A416B26B80E224/'.
+[2019.01.25-06.43.41:483][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.25-06.43.41:496][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.25-06.43.41:509][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.25-06.43.41:522][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.25-06.43.41:539][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.25-06.43.41:552][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.25-06.43.41:565][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.25-06.43.41:579][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.25-06.43.41:586][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-06.43.41:671][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.25-06.43.41:743][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-06.43.41:743][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-06.43.41:764][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-06.43.41:764][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-06.43.41:776][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.25-06.43.41:788][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.25-06.43.41:801][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.25-06.43.41:820][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.25-06.43.41:829][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.25-06.43.41:829][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.25-06.43.41:942][  0]LogXGEController: Cleaning working directory: C:/Users/Blsch/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-06.43.41:942][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.25-06.43.41:942][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.25-06.43.41:942][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.25-06.43.43:825][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.25-06.43.44:212][  0]LogDerivedDataCache: Loaded boot cache 0.39s 71MB C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-06.43.44:213][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.25-06.43.44:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.25-06.43.44:214][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.25-06.43.44:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.25-06.43.44:214][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.25-06.43.44:238][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.25-06.43.44:251][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Blsch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.25-06.43.44:251][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.25-06.43.44:251][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.25-06.43.44:271][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.25-06.43.44:276][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.25-06.43.44:291][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.25-06.43.44:536][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
+[2019.01.25-06.43.44:853][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-06.43.45:135][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.25-06.43.45:151][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.25-06.43.45:151][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.25-06.43.45:151][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.25-06.43.45:151][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.25-06.43.45:199][  0]LogNetVersion: BS_WBInClass 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 115251708)
+[2019.01.25-06.43.46:298][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.087351 seconds
+[2019.01.25-06.43.46:303][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.25-06.43.46:303][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.25-06.43.46:303][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.25-06.43.49:068][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.25-06.43.49:083][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.25-06.43.49:382][  0]SourceControl: Source control is disabled
+[2019.01.25-06.43.49:383][  0]SourceControl: Source control is disabled
+[2019.01.25-06.43.49:391][  0]SourceControl: Source control is disabled
+[2019.01.25-06.43.49:396][  0]SourceControl: Source control is disabled
+[2019.01.25-06.43.49:660][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.25-06.43.49:753][  0]LogOcInput: OculusInput pre-init called
+[2019.01.25-06.43.49:855][  0]LogEngine: Initializing Engine...
+[2019.01.25-06.43.49:856][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-06.43.49:858][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-06.43.49:858][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-06.43.49:858][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-06.43.49:859][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-06.43.50:198][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.25-06.43.50:233][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.25-06.43.50:256][  0]LogInit: XAudio2 using 'Headphones (DAT Boy’s Beats Solo³ Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-06.43.50:818][  0]LogInit: FAudioDevice initialized.
+[2019.01.25-06.43.50:818][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.25-06.43.50:866][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-06.43.50:883][  0]LogInit: Texture streaming: Enabled
+[2019.01.25-06.43.50:905][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.25-06.43.50:927][  0]LogInit: Transaction tracking system initialized
+[2019.01.25-06.43.50:976][  0]BlueprintLog: New page: Editor Load
+[2019.01.25-06.43.51:145][  0]LocalizationService: Localization service is disabled
+[2019.01.25-06.43.51:645][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/' took 0.01s
+[2019.01.25-06.43.51:645][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.25-06.43.51:645][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.25-06.43.51:646][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.25-06.43.51:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-06.43.51:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-06.43.51:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-06.43.51:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-06.43.51:924][  0]SourceControl: Source control is disabled
+[2019.01.25-06.43.52:017][  0]LogSlate: Took 0.004288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.25-06.44.12:925][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.01.25-06.44.12:925][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-06.44.12:944][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-06.44.15:657][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2019.01.25-06.44.15:658][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-06.44.15:696][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-06.44.15:697][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-06.44.15:704][  0]LightingResults: New page: Lighting Build
+[2019.01.25-06.44.15:712][  0]MapCheck: New page: Map Check
+[2019.01.25-06.44.15:713][  0]LightingResults: New page: Lighting Build
+[2019.01.25-06.44.16:072][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.25-06.44.16:099][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-06.44.16:133][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-06.44.16:218][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.456ms to complete.
+[2019.01.25-06.44.16:218][  0]LogFileHelpers: Loading map 'Template_Default' took 0.520
+[2019.01.25-06.44.16:310][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-06.44.16:318][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-06.44.16:322][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-06.44.16:329][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-06.44.16:345][  0]LogCollectionManager: Loaded 0 collections in 0.001618 seconds
+[2019.01.25-06.44.16:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/Collections/' took 0.01s
+[2019.01.25-06.44.16:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Developers/Blsch/Collections/' took 0.01s
+[2019.01.25-06.44.16:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Collections/' took 0.01s
+[2019.01.25-06.44.16:399][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.25-06.44.16:409][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2572 classes and 603 folders.
+[2019.01.25-06.44.16:421][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.25-06.44.16:772][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.25-06.44.16:782][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.01.25-06.44.16:827][  0]LogSlate: Took 0.004894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.25-06.44.16:839][  0]LogSlate: Took 0.005805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.25-06.44.16:945][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-06.44.17:064][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.25-06.44.17:065][  0]LogLoad: (Engine Initialization) Total time: 43.55 seconds
+[2019.01.25-06.44.17:065][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.25-06.44.17:107][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.25-06.44.17:135][  0]LogSlate: Took 0.005439 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-06.44.17:175][  1]LogAssetRegistry: Asset discovery search completed in 32.6619 seconds
+[2019.01.25-06.44.17:176][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.25-06.44.17:176][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2019.01.25-06.44.18:644][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-06.44.18:966][108]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-06.44.19:257][108]LogAIModule: Creating AISystem for world Block_1
+[2019.01.25-06.44.19:272][108]LogAssetEditorManager: Opening Asset editor for World /Game/Block_1.Block_1
+[2019.01.25-06.44.19:296][108]Cmd: MAP LOAD FILE="../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Block_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-06.44.19:296][108]LightingResults: New page: Lighting Build
+[2019.01.25-06.44.19:297][108]LoadErrors: New page: Loading map: Block_1.umap
+[2019.01.25-06.44.19:297][108]MapCheck: New page: Map Check
+[2019.01.25-06.44.19:297][108]LightingResults: New page: Lighting Build
+[2019.01.25-06.44.19:326][108]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-06.44.19:373][108]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-06.44.19:449][108]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.856ms to complete.
+[2019.01.25-06.44.19:449][108]LogFileHelpers: Loading map 'Block_1' took 0.154
+[2019.01.25-06.44.31:928][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-06.44.33:395][938]LogSlate: FSceneViewport::OnFocusLost() reason 2
