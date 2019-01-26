@@ -1,4 +1,4 @@
-﻿Log file open, 01/24/19 23:43:37
+﻿Log file open, 01/25/19 18:19:13
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BS_WBInClass
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.012374
+LogStats: Stats thread started at 0.421888
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.115s to configure plugins.
+LogStreaming: Display: Took  0.202s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,639 +147,309 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.007s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.25-06.43.38:132][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.25-06.43.38:132][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.25-06.43.38:152][  0]LogHAL: Display: Platform has ~ 16 GB [17018314752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.25-06.43.38:152][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.25-06.43.38:152][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.25-06.43.38:158][  0]LogInit: Computer: MSI
-[2019.01.25-06.43.38:158][  0]LogInit: User: Blsch
-[2019.01.25-06.43.38:158][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.01.25-06.43.38:158][  0]LogInit: High frequency timer resolution =2.156251 MHz
-[2019.01.25-06.43.38:158][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2019.01.25-06.43.38:158][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.25-06.43.38:158][  0]LogMemory: Process Physical Memory: 101.38 MB used, 101.38 MB peak
-[2019.01.25-06.43.38:158][  0]LogMemory: Process Virtual Memory: 85.82 MB used, 85.82 MB peak
-[2019.01.25-06.43.38:158][  0]LogMemory: Physical Memory: 5644.52 MB used,  10585.41 MB free, 16229.93 MB total
-[2019.01.25-06.43.38:158][  0]LogMemory: Virtual Memory: 4657.61 MB used,  10585.41 MB free, 134217728.00 MB total
-[2019.01.25-06.43.38:647][  0]LogInit: Using OS detected language (en-US).
-[2019.01.25-06.43.38:647][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.25-06.43.38:649][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.25-06.43.39:032][  0]LogStreaming: Display: Took  0.384s to InitEngineTextLocalization.
-[2019.01.25-06.43.39:032][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.25-06.43.39:088][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.25-06.43.39:088][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.25-06.43.41:052][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.25-06.43.41:052][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.25-06.43.41:108][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2019.01.25-06.43.41:108][  0]LogD3D11RHI:       6052/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.01.25-06.43.41:122][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.01.25-06.43.41:122][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.01.25-06.43.41:123][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.25-06.43.41:123][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.25-06.43.41:123][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.25-06.43.41:147][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.25-06.43.41:147][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.25-06.43.41:147][  0]LogWindows: EnumDisplayDevices:
-[2019.01.25-06.43.41:147][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2019.01.25-06.43.41:147][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.01.25-06.43.41:147][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.01.25-06.43.41:148][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.25-06.43.41:148][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.25-06.43.41:148][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.25-06.43.41:148][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2019.01.25-06.43.41:148][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.01.25-06.43.41:148][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2019.01.25-06.43.41:148][  0]LogD3D11RHI:   Driver Version: 390.94 (internal:23.21.13.9094, unified:390.94)
-[2019.01.25-06.43.41:148][  0]LogD3D11RHI:      Driver Date: 2-14-2018
-[2019.01.25-06.43.41:148][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.01.25-06.43.41:185][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.25-06.43.41:213][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.25-06.43.41:219][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Intermediate/Shaders/WorkingDirectory/4352/).
-[2019.01.25-06.43.41:219][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Blsch/AppData/Local/Temp/UnrealShaderWorkingDir/A6DC833146A706DF54A416B26B80E224/'.
-[2019.01.25-06.43.41:483][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.25-06.43.41:496][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.25-06.43.41:509][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.25-06.43.41:522][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.25-06.43.41:539][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.25-06.43.41:552][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.25-06.43.41:565][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.25-06.43.41:579][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.25-06.43.41:586][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.25-06.43.41:671][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.25-06.43.41:743][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.25-06.43.41:743][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.25-06.43.41:764][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.25-06.43.41:764][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.25-06.43.41:776][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.25-06.43.41:788][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.25-06.43.41:801][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.25-06.43.41:820][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.25-06.43.41:829][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.25-06.43.41:829][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.25-06.43.41:942][  0]LogXGEController: Cleaning working directory: C:/Users/Blsch/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.01.25-06.43.41:942][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.25-06.43.41:942][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.25-06.43.41:942][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.25-06.43.43:825][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.25-06.43.44:212][  0]LogDerivedDataCache: Loaded boot cache 0.39s 71MB C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.25-06.43.44:213][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.01.25-06.43.44:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.25-06.43.44:214][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.25-06.43.44:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.25-06.43.44:214][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.25-06.43.44:238][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.25-06.43.44:251][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Blsch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.25-06.43.44:251][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.25-06.43.44:251][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.25-06.43.44:271][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.25-06.43.44:276][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.25-06.43.44:291][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.25-06.43.44:536][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
-[2019.01.25-06.43.44:853][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.25-06.43.45:135][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.25-06.43.45:151][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.25-06.43.45:151][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.25-06.43.45:151][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.25-06.43.45:151][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.25-06.43.45:199][  0]LogNetVersion: BS_WBInClass 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 115251708)
-[2019.01.25-06.43.46:298][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.087351 seconds
-[2019.01.25-06.43.46:303][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.01.25-06.43.46:303][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.01.25-06.43.46:303][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.25-06.43.49:068][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.25-06.43.49:083][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.25-06.43.49:382][  0]SourceControl: Source control is disabled
-[2019.01.25-06.43.49:383][  0]SourceControl: Source control is disabled
-[2019.01.25-06.43.49:391][  0]SourceControl: Source control is disabled
-[2019.01.25-06.43.49:396][  0]SourceControl: Source control is disabled
-[2019.01.25-06.43.49:660][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.25-06.43.49:753][  0]LogOcInput: OculusInput pre-init called
-[2019.01.25-06.43.49:855][  0]LogEngine: Initializing Engine...
-[2019.01.25-06.43.49:856][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.25-06.43.49:858][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.25-06.43.49:858][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.25-06.43.49:858][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.25-06.43.49:859][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.25-06.43.50:198][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.25-06.43.50:233][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.25-06.43.50:256][  0]LogInit: XAudio2 using 'Headphones (DAT Boy’s Beats Solo³ Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.25-06.43.50:818][  0]LogInit: FAudioDevice initialized.
-[2019.01.25-06.43.50:818][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.25-06.43.50:866][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.25-06.43.50:883][  0]LogInit: Texture streaming: Enabled
-[2019.01.25-06.43.50:905][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.25-06.43.50:927][  0]LogInit: Transaction tracking system initialized
-[2019.01.25-06.43.50:976][  0]BlueprintLog: New page: Editor Load
-[2019.01.25-06.43.51:145][  0]LocalizationService: Localization service is disabled
-[2019.01.25-06.43.51:645][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/' took 0.01s
-[2019.01.25-06.43.51:645][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.25-06.43.51:645][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.25-06.43.51:646][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.25-06.43.51:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.25-06.43.51:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.25-06.43.51:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.25-06.43.51:646][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.25-06.43.51:924][  0]SourceControl: Source control is disabled
-[2019.01.25-06.43.52:017][  0]LogSlate: Took 0.004288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.25-06.44.12:925][  0]LogSlate: Window 'Restore Packages' being destroyed
-[2019.01.25-06.44.12:925][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.25-06.44.12:944][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.25-06.44.15:657][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
-[2019.01.25-06.44.15:658][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.25-06.44.15:696][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.25-06.44.15:697][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.25-06.44.15:704][  0]LightingResults: New page: Lighting Build
-[2019.01.25-06.44.15:712][  0]MapCheck: New page: Map Check
-[2019.01.25-06.44.15:713][  0]LightingResults: New page: Lighting Build
-[2019.01.25-06.44.16:072][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.01.25-06.44.16:099][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.25-06.44.16:133][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.25-06.44.16:218][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.456ms to complete.
-[2019.01.25-06.44.16:218][  0]LogFileHelpers: Loading map 'Template_Default' took 0.520
-[2019.01.25-06.44.16:310][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.25-06.44.16:318][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.25-06.44.16:322][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.25-06.44.16:329][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.25-06.44.16:345][  0]LogCollectionManager: Loaded 0 collections in 0.001618 seconds
-[2019.01.25-06.44.16:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/Collections/' took 0.01s
-[2019.01.25-06.44.16:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Developers/Blsch/Collections/' took 0.01s
-[2019.01.25-06.44.16:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Collections/' took 0.01s
-[2019.01.25-06.44.16:399][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.25-06.44.16:409][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2572 classes and 603 folders.
-[2019.01.25-06.44.16:421][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.25-06.44.16:772][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.25-06.44.16:782][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.01.25-06.44.16:827][  0]LogSlate: Took 0.004894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.25-06.44.16:839][  0]LogSlate: Took 0.005805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.25-06.44.16:945][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.01.25-06.44.17:064][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2019.01.25-06.44.17:065][  0]LogLoad: (Engine Initialization) Total time: 43.55 seconds
-[2019.01.25-06.44.17:065][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.25-06.44.17:107][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.25-06.44.17:135][  0]LogSlate: Took 0.005439 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.25-06.44.17:175][  1]LogAssetRegistry: Asset discovery search completed in 32.6619 seconds
-[2019.01.25-06.44.17:176][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.25-06.44.17:176][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
-[2019.01.25-06.44.18:644][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.25-06.44.18:966][108]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.25-06.44.19:257][108]LogAIModule: Creating AISystem for world Block_1
-[2019.01.25-06.44.19:272][108]LogAssetEditorManager: Opening Asset editor for World /Game/Block_1.Block_1
-[2019.01.25-06.44.19:296][108]Cmd: MAP LOAD FILE="../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Block_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.25-06.44.19:296][108]LightingResults: New page: Lighting Build
-[2019.01.25-06.44.19:297][108]LoadErrors: New page: Loading map: Block_1.umap
-[2019.01.25-06.44.19:297][108]MapCheck: New page: Map Check
-[2019.01.25-06.44.19:297][108]LightingResults: New page: Lighting Build
-[2019.01.25-06.44.19:326][108]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.25-06.44.19:373][108]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.25-06.44.19:449][108]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.856ms to complete.
-[2019.01.25-06.44.19:449][108]LogFileHelpers: Loading map 'Block_1' took 0.154
-[2019.01.25-06.44.31:928][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.25-06.44.33:395][938]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.25-07.04.25:843][785]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{4924c89c-236b-4269-bc26-ab43150944f4} was removed. Shutting down audio device.
-[2019.01.25-07.04.25:843][785]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.01.25-07.24.22:086][874]LogInit: XAudio2 using 'Headphones (DAT Boy’s Beats Solo³ Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.25-08.06.26:902][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.25-08.06.34:207][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.25-08.06.46:423][ 39]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.25-08.06.59:614][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.25-08.07.03:799][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.25-08.08.14:754][843]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.25-08.08.40:184][293]Cmd: TRANSACTION UNDO
-[2019.01.25-08.08.40:184][293]LogEditorTransaction: Undo Rotate Actors
-[2019.01.25-08.08.40:280][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_47.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:280][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_41.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:281][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_55.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:281][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_50.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:281][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_29.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:282][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_38.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:282][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_32.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:282][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:282][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushGrass_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:283][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_87.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:283][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_79.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:283][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_65.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:283][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_232.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:284][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_75.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:284][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_264.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:285][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_13.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:285][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_22.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:290][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_4.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:291][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_76.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:291][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_20.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:291][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_14.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:292][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_35.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:292][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_59.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:293][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:293][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_191.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:294][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_159.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:294][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_153.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:294][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_148.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:295][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_182.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:295][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_151.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:296][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_227.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:296][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_221.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:296][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_195.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:296][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_243.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:297][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_167.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:297][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_162.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:298][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_218.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:298][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_171.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:298][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:299][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_11.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:299][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_94.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:299][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_97.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:300][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_102.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:300][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_106.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:300][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_24.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:301][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_129.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:301][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_142.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:302][293]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.Roof_6.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:420][294]Cmd: TRANSACTION UNDO
-[2019.01.25-08.08.40:420][294]LogEditorTransaction: Undo Move Actors
-[2019.01.25-08.08.40:522][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_47.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:523][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_41.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:523][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_55.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:523][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_50.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:523][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_29.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:524][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_38.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:524][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_32.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:524][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:525][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushGrass_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:525][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_87.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:525][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_79.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:525][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_65.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:526][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_232.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:526][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_75.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:526][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_264.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:527][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_13.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:527][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_22.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:532][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_4.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:532][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_76.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:533][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_20.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:533][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_14.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:533][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_35.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:534][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_59.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:534][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:535][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_191.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:535][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_159.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:535][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_153.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:536][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_148.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:536][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_182.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:536][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_151.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:537][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_227.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:537][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_221.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:537][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_195.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:537][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_243.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:538][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_167.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:538][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_162.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:538][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_218.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:538][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_171.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:539][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:539][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_11.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:540][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_94.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:540][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_97.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:540][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_102.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:540][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_106.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:541][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_24.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:541][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_129.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:542][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_142.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:542][294]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.Roof_6.BrushComponent0) Component already registered.
-[2019.01.25-08.08.40:938][310]Cmd: TRANSACTION UNDO
-[2019.01.25-08.08.40:938][310]LogEditorTransaction: Undo Move Actors
-[2019.01.25-08.08.41:036][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_47.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:036][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_41.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:036][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_55.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:037][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_50.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:037][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_29.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:037][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_38.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:038][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_32.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:038][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:038][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushGrass_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:039][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_87.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:039][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_79.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:039][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_65.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:039][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_232.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:040][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_75.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:040][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_264.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:040][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_13.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:041][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_22.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:046][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_4.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:046][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_76.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:047][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_20.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:047][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_14.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:047][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_35.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:048][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_59.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:048][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:048][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_191.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:049][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_159.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:049][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_153.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:050][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_148.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:050][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_182.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:050][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_151.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:051][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_227.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:051][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_221.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:051][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_195.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:051][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_243.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:052][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_167.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:052][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_162.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:052][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_218.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:052][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_171.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:053][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:053][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_11.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:053][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_94.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:054][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_97.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:054][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_102.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:054][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_106.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:055][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_24.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:055][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_129.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:056][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_142.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:056][310]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.Roof_6.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:409][324]Cmd: TRANSACTION UNDO
-[2019.01.25-08.08.41:409][324]LogEditorTransaction: Undo Rotate Actors
-[2019.01.25-08.08.41:507][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_47.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:507][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_41.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:507][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_55.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:507][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_50.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:508][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_29.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:508][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_38.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:508][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_32.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:509][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:509][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushGrass_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:509][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_87.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:509][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_79.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:510][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_65.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:510][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_232.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:510][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_75.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:510][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_264.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:511][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_13.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:511][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_22.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:516][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_4.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:516][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_76.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:517][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_20.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:517][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_14.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:517][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_35.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:518][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_59.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:518][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:519][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_191.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:519][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_159.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:519][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_153.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:520][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_148.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:520][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_182.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:520][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_151.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:521][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_227.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:521][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_221.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:521][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_195.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:521][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_243.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:522][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_167.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:522][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_162.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:522][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_218.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:522][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_171.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:523][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_2.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:523][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_11.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:523][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_94.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:524][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_97.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:524][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_102.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:524][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_106.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:524][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_24.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:525][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_129.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:525][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_142.BrushComponent0) Component already registered.
-[2019.01.25-08.08.41:526][324]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.Roof_6.BrushComponent0) Component already registered.
-[2019.01.25-08.08.58:301][251]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.25-08.09.02:199][483]Cmd: TRANSACTION UNDO
-[2019.01.25-08.09.02:199][483]LogEditorTransaction: Undo Clicking on Actors
-[2019.01.25-08.09.02:385][493]Cmd: TRANSACTION UNDO
-[2019.01.25-08.09.02:385][493]LogEditorTransaction: Undo Move Actors
-[2019.01.25-08.09.02:482][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_47.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:483][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_41.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:483][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_55.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:483][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_50.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:483][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_29.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:484][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_38.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:484][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_32.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:484][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:485][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushGrass_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:485][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_87.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:485][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_79.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:485][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_65.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:486][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_232.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:486][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_75.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:486][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_264.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:486][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_13.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:487][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_22.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:492][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_4.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:492][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_76.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:493][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_20.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:493][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_14.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:493][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_35.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:494][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_59.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:494][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:494][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_191.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:495][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_159.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:495][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_153.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:495][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_148.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:496][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_182.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:496][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_151.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:496][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_227.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:497][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_221.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:497][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_195.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:497][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_243.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:497][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_167.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:498][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_162.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:498][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_218.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:498][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_171.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:498][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:499][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_11.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:499][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_94.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:499][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_97.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:500][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_102.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:500][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_106.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:500][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_24.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:501][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_129.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:501][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_142.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:502][493]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.Roof_6.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:609][494]Cmd: TRANSACTION UNDO
-[2019.01.25-08.09.02:609][494]LogEditorTransaction: Undo Move Actors
-[2019.01.25-08.09.02:714][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_47.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:714][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_41.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:715][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_55.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:715][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_50.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:715][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_29.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:716][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_38.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:716][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_32.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:716][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:716][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushGrass_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:717][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_87.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:717][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_79.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:717][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_65.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:718][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_232.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:718][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_75.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:718][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_264.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:719][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_13.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:719][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_22.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:724][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_4.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:725][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_76.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:725][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_20.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:725][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_14.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:726][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_35.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:726][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_59.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:727][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:727][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_191.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:728][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_159.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:728][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_153.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:728][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_148.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:729][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_182.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:729][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_151.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:729][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_227.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:729][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_221.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:730][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_195.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:730][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_243.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:730][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_167.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:730][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_162.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:731][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_218.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:731][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_171.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:731][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:732][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_11.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:732][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_94.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:732][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_97.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:733][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_102.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:733][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_106.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:733][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_24.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:734][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_129.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:734][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_142.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:735][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.Roof_6.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:766][494]Cmd: TRANSACTION UNDO
-[2019.01.25-08.09.02:766][494]LogEditorTransaction: Undo Move Actors
-[2019.01.25-08.09.02:868][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_47.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:869][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_41.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:869][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_55.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:869][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_50.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:870][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_29.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:870][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_38.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:870][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_32.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:871][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:871][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushGrass_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:871][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_87.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:871][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_79.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:872][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_65.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:872][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_232.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:872][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_75.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:872][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_264.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:873][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_13.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:873][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_22.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:878][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_4.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:879][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_76.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:879][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_20.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:880][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_14.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:880][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_35.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:881][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_59.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:881][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:881][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_191.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:882][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_159.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:882][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_153.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:883][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_148.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:883][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_182.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:883][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_151.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:884][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_227.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:884][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_221.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:884][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_195.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:884][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_243.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:885][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_167.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:885][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_162.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:885][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_218.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:885][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_171.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:886][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:886][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_11.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:886][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_94.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:887][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_97.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:887][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_102.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:887][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_106.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:888][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_24.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:888][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_129.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:889][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_142.BrushComponent0) Component already registered.
-[2019.01.25-08.09.02:889][494]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.Roof_6.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:114][498]Cmd: TRANSACTION UNDO
-[2019.01.25-08.09.03:114][498]LogEditorTransaction: Undo Rotate Actors
-[2019.01.25-08.09.03:213][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_47.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:213][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_41.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:213][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_55.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:213][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_50.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:214][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_29.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:214][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_38.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:215][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_32.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:215][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:215][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushGrass_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:216][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_87.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:216][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_79.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:216][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_65.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:216][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_232.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:217][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_75.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:217][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_264.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:217][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_13.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:218][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_22.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:222][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_4.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:223][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_76.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:223][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_20.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:223][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_14.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:224][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_35.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:224][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_59.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:225][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:225][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_191.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:226][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_159.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:226][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_153.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:226][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_148.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:227][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_182.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:227][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_151.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:227][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_227.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:227][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_221.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:228][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_195.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:228][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_243.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:228][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_167.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:228][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_162.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:229][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_218.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:229][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_171.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:229][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_2.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:230][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_11.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:230][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_94.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:230][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_97.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:230][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_102.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:231][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_106.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:231][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_24.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:231][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_129.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:232][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_142.BrushComponent0) Component already registered.
-[2019.01.25-08.09.03:232][498]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.Roof_6.BrushComponent0) Component already registered.
-[2019.01.25-08.09.04:201][544]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.25-08.09.27:444][795]LogEditorViewport: Clicking on Actor (LMB): Brush (FireStation_22)
-[2019.01.25-08.09.28:565][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.25-08.09.31:151][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.25-08.09.37:080][336]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.25-08.09.38:972][446]LogEditorViewport: Clicking on Actor (double click): Brush (FireStation_22)
-[2019.01.25-08.09.43:093][675]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.25-08.10.19:466][719]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.25-08.10.20:340][762]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.25-08.10.21:365][821]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.25-08.10.22:631][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Block_1" FILE="../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Block_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.01.25-08.10.23:148][821]LogSavePackage: Moving '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/Block_184751DC5430E17BBD7AC45BF31CA727A.tmp' to '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Block_1.umap'
-[2019.01.25-08.10.23:198][821]LogFileHelpers: Saving map 'Block_1' took 1.821
-[2019.01.25-08.10.40:015][627]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-01.19.14:126][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-01.19.14:126][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-01.19.14:167][  0]LogHAL: Display: Platform has ~ 16 GB [17018314752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.26-01.19.14:168][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.26-01.19.14:168][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.26-01.19.14:169][  0]LogInit: Computer: MSI
+[2019.01.26-01.19.14:169][  0]LogInit: User: Blsch
+[2019.01.26-01.19.14:169][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.01.26-01.19.14:169][  0]LogInit: High frequency timer resolution =2.156255 MHz
+[2019.01.26-01.19.14:169][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.01.26-01.19.14:170][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-01.19.14:170][  0]LogMemory: Process Physical Memory: 101.43 MB used, 101.43 MB peak
+[2019.01.26-01.19.14:170][  0]LogMemory: Process Virtual Memory: 86.07 MB used, 86.07 MB peak
+[2019.01.26-01.19.14:170][  0]LogMemory: Physical Memory: 6715.58 MB used,  9514.35 MB free, 16229.93 MB total
+[2019.01.26-01.19.14:170][  0]LogMemory: Virtual Memory: 4657.61 MB used,  9514.35 MB free, 134217728.00 MB total
+[2019.01.26-01.19.14:564][  0]LogInit: Using OS detected language (en-US).
+[2019.01.26-01.19.14:564][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.26-01.19.14:564][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.26-01.19.14:866][  0]LogStreaming: Display: Took  0.302s to InitEngineTextLocalization.
+[2019.01.26-01.19.14:867][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.26-01.19.14:928][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.26-01.19.14:928][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.26-01.19.15:147][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-01.19.15:147][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-01.19.15:207][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.01.26-01.19.15:207][  0]LogD3D11RHI:       6052/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.26-01.19.15:221][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.01.26-01.19.15:221][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.26-01.19.15:223][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.26-01.19.15:223][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.26-01.19.15:223][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-01.19.15:246][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-01.19.15:246][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-01.19.15:246][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-01.19.15:246][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.01.26-01.19.15:247][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.01.26-01.19.15:247][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.01.26-01.19.15:247][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.26-01.19.15:247][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.26-01.19.15:247][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.26-01.19.15:248][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.01.26-01.19.15:248][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.01.26-01.19.15:248][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.01.26-01.19.15:248][  0]LogD3D11RHI:   Driver Version: 390.94 (internal:23.21.13.9094, unified:390.94)
+[2019.01.26-01.19.15:248][  0]LogD3D11RHI:      Driver Date: 2-14-2018
+[2019.01.26-01.19.15:248][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.01.26-01.19.15:282][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-01.19.15:298][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.26-01.19.15:299][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Intermediate/Shaders/WorkingDirectory/11852/).
+[2019.01.26-01.19.15:299][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Blsch/AppData/Local/Temp/UnrealShaderWorkingDir/81B5D3C84B79514B8830F29F589EFBF6/'.
+[2019.01.26-01.19.15:726][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-01.19.15:737][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-01.19.15:770][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-01.19.15:791][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-01.19.15:809][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.26-01.19.15:820][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-01.19.15:831][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-01.19.15:842][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-01.19.15:847][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:909][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-01.19.15:910][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-01.19.15:985][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-01.19.15:985][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-01.19.16:055][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-01.19.16:055][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-01.19.16:079][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-01.19.16:102][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-01.19.16:115][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-01.19.16:125][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-01.19.16:132][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-01.19.16:133][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.26-01.19.16:180][  0]LogXGEController: Cleaning working directory: C:/Users/Blsch/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.26-01.19.16:180][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.26-01.19.16:180][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.26-01.19.16:180][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.26-01.19.16:932][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.26-01.19.16:980][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-01.19.16:980][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.26-01.19.16:980][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-01.19.16:980][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-01.19.16:980][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-01.19.16:980][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-01.19.16:991][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-01.19.17:006][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Blsch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-01.19.17:006][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.26-01.19.17:006][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.26-01.19.17:023][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.26-01.19.17:024][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.26-01.19.17:024][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-01.19.17:130][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2019.01.26-01.19.17:414][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-01.19.17:606][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-01.19.17:609][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-01.19.17:609][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.26-01.19.17:609][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-01.19.17:609][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.26-01.19.17:626][  0]LogNetVersion: BS_WBInClass 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 115251708)
+[2019.01.26-01.19.19:013][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.278658 seconds
+[2019.01.26-01.19.19:031][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.26-01.19.19:031][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.26-01.19.19:031][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-01.19.20:319][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-01.19.20:333][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-01.19.20:584][  0]SourceControl: Source control is disabled
+[2019.01.26-01.19.20:584][  0]SourceControl: Source control is disabled
+[2019.01.26-01.19.20:585][  0]SourceControl: Source control is disabled
+[2019.01.26-01.19.20:586][  0]SourceControl: Source control is disabled
+[2019.01.26-01.19.20:768][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.26-01.19.20:899][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-01.19.21:041][  0]LogEngine: Initializing Engine...
+[2019.01.26-01.19.21:043][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-01.19.21:046][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-01.19.21:046][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-01.19.21:046][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-01.19.21:046][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-01.19.21:532][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.26-01.19.21:554][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-01.19.21:570][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-01.19.21:656][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-01.19.21:656][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.26-01.19.21:760][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Blsch/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-01.19.21:811][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-01.19.21:840][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-01.19.21:840][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={544F6DB1-4927-654C-A14E-0BAFF95DE54A}
+[2019.01.26-01.19.21:852][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-01.19.21:872][  0]BlueprintLog: New page: Editor Load
+[2019.01.26-01.19.21:930][  0]LocalizationService: Localization service is disabled
+[2019.01.26-01.19.22:204][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-01.19.22:204][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.26-01.19.22:204][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.26-01.19.22:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-01.19.22:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-01.19.22:204][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/' took 0.01s
+[2019.01.26-01.19.22:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-01.19.22:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-01.19.22:335][  0]SourceControl: Source control is disabled
+[2019.01.26-01.19.22:335][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-01.19.22:335][  0]LightingResults: New page: Lighting Build
+[2019.01.26-01.19.22:337][  0]MapCheck: New page: Map Check
+[2019.01.26-01.19.22:338][  0]LightingResults: New page: Lighting Build
+[2019.01.26-01.19.22:670][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.26-01.19.22:683][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-01.19.22:740][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-01.19.22:794][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.712ms to complete.
+[2019.01.26-01.19.22:794][  0]LogFileHelpers: Loading map 'Template_Default' took 0.459
+[2019.01.26-01.19.23:054][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-01.19.23:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-01.19.23:072][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-01.19.23:078][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-01.19.23:084][  0]LogCollectionManager: Loaded 0 collections in 0.001542 seconds
+[2019.01.26-01.19.23:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/Collections/' took 0.01s
+[2019.01.26-01.19.23:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Developers/Blsch/Collections/' took 0.01s
+[2019.01.26-01.19.23:138][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Collections/' took 0.01s
+[2019.01.26-01.19.23:138][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.26-01.19.23:161][  0]LogContentBrowser: Native class hierarchy populated in 0.0233 seconds. Added 2572 classes and 603 folders.
+[2019.01.26-01.19.23:174][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.26-01.19.23:217][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.26-01.19.23:222][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.01.26-01.19.23:234][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-01.19.23:235][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-01.19.23:241][  0]LogSlate: Took 0.000732 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-01.19.23:345][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-01.19.23:659][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.26-01.19.23:659][  0]LogLoad: (Engine Initialization) Total time: 11.68 seconds
+[2019.01.26-01.19.23:659][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.26-01.19.23:679][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.26-01.19.23:708][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.26-01.19.23:725][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-01.19.23:762][  1]LogAssetRegistry: Asset discovery search completed in 6.6540 seconds
+[2019.01.26-01.19.23:763][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.26-01.19.23:763][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2019.01.26-01.19.25:782][  7]LogInit: XAudio2 using 'Headphones (DAT Boy’s Beats Solo³ Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-01.19.26:166][  8]LogInit: XAudio2 using 'Headphones (DAT Boy’s Beats Solo³ Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.26-01.19.29:487][ 18]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{4924c89c-236b-4269-bc26-ab43150944f4} was removed. Shutting down audio device.
+[2019.01.26-01.19.29:487][ 18]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-01.19.33:298][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.19.33:504][ 71]LogSlate: Took 0.000604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-01.19.33:791][ 71]LogAIModule: Creating AISystem for world Block_1
+[2019.01.26-01.19.33:868][ 71]LogAssetEditorManager: Opening Asset editor for World /Game/Block_1.Block_1
+[2019.01.26-01.19.33:932][ 71]Cmd: MAP LOAD FILE="../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Block_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-01.19.33:932][ 71]LightingResults: New page: Lighting Build
+[2019.01.26-01.19.33:933][ 71]LoadErrors: New page: Loading map: Block_1.umap
+[2019.01.26-01.19.33:934][ 71]MapCheck: New page: Map Check
+[2019.01.26-01.19.33:934][ 71]LightingResults: New page: Lighting Build
+[2019.01.26-01.19.34:005][ 71]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-01.19.34:060][ 71]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-01.19.34:250][ 71]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 190.464ms to complete.
+[2019.01.26-01.19.34:254][ 71]LogFileHelpers: Loading map 'Block_1' took 0.324
+[2019.01.26-01.19.49:264][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.19.53:968][592]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.26-01.20.05:537][886]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.26-01.20.16:724][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.20.17:457][210]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.26-01.20.49:585][ 50]LogEditorViewport: Clicking on Actor (LMB): Brush (FireStation_25)
+[2019.01.26-01.20.51:850][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.21.02:941][420]LogGeometryMode: Warning: Unable to find BrushGrass_6 Brush(s) in new BSP
+[2019.01.26-01.21.02:941][420]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.01.26-01.21.03:001][420]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-01.21.05:699][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.21.10:582][631]LogGeometryMode: Warning: Unable to find FireStation_15 Brush(s) in new BSP
+[2019.01.26-01.21.10:582][631]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.01.26-01.21.17:144][799]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.26-01.21.28:952][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.21.33:163][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.21.42:006][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.21.51:996][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.21.58:279][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.22.04:293][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.22.11:301][256]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.26-01.22.17:312][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.22.22:383][553]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-01.22.22:684][556]LogEditorViewport: Clicking on Actor (LMB): Brush (Cone Brush)
+[2019.01.26-01.23.12:884][824]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.26-01.23.50:465][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.24.12:458][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.24.14:341][182]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-01.24.19:709][326]Cmd: TRANSACTION UNDO
+[2019.01.26-01.24.19:709][326]LogEditorTransaction: Undo Scale Actors
+[2019.01.26-01.24.20:032][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_51.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:034][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_62.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:035][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_58.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:035][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_31.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:036][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_27.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:037][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_38.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:038][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_85.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:039][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_93.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:041][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_98.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:041][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_272.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:043][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushGrass_6.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:044][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushGrass_2.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:045][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_22.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:045][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_14.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:047][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_3.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:062][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_78.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:064][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_70.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:064][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_19.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:064][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_35.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:065][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_31.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:066][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BoxBrush_55.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:068][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_165.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:070][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_173.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:070][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_187.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:072][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.ConeBrush2.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:074][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_226.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:074][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.Window_4.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:074][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_100.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:076][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_136.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:077][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_150.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:078][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_146.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:078][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.FireStation_21.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:079][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_128.BrushComponent0) Component already registered.
+[2019.01.26-01.24.20:080][326]LogActorComponent: ~FComponentReregisterContext: (/Game/Block_1.Block_1:PersistentLevel.BrushSideWalk_124.BrushComponent0) Component already registered.
+[2019.01.26-01.24.21:042][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.24.39:651][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.24.47:749][ 31]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.26-01.24.55:574][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.24.55:852][236]LogActorFactory: Actor Factory created Cube
+[2019.01.26-01.24.57:765][291]LogActorFactory: Actor Factory created Cube
+[2019.01.26-01.24.59:268][331]Cmd: DELETE
+[2019.01.26-01.24.59:268][331]Cmd: ACTOR DELETE
+[2019.01.26-01.24.59:395][331]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.26-01.24.59:523][331]LogEditorActor: Deleted 1 Actors (0.249 secs)
+[2019.01.26-01.25.00:446][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.25.05:740][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.25.07:282][536]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-01.25.16:639][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.25.23:455][939]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-01.25.24:832][975]Cmd: DELETE
+[2019.01.26-01.25.24:832][975]Cmd: ACTOR DELETE
+[2019.01.26-01.25.24:920][975]LogEditorActor: Deleted Actor: Brush
+[2019.01.26-01.25.25:218][975]LogEditorActor: Deleted 1 Actors (0.385 secs)
+[2019.01.26-01.25.26:513][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.25.28:754][ 63]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-01.25.40:404][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.25.45:473][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.25.47:432][540]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.26-01.25.54:226][685]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.26.16:629][286]LogGeometryMode: Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2019.01.26-01.26.16:629][286]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.01.26-01.26.32:201][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-01.27.00:212][390]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.26-01.27.10:388][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-01.27.12:000][713]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-01.27.12:167][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Block_1" FILE="../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Block_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.26-01.27.12:928][713]LogSavePackage: Moving '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Saved/Block_1BC19234F4EB7E3669338419173CD9298.tmp' to '../../../../../../Users/Blsch/OneDrive/Documents/GitHub/BS_AssetPipeline/BS_WBInClass/Content/Block_1.umap'
+[2019.01.26-01.27.13:034][713]LogFileHelpers: Saving map 'Block_1' took 0.986
